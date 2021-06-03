@@ -9,7 +9,7 @@ function createWindow(){
         height: 600,
         webPreferences:true
     })
-    mainWindow.loadFile("index.html").then(function(){
+    mainWindow.loadFile("public/index.html").then(function(){
         mainWIndow.webContens.openDevTools();
         mainWindow.maximize();
     })
