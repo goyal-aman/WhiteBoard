@@ -18,6 +18,7 @@ function undoLine(){
 }
 
 function redrawLine(db){
+    ctx.lineCap = 'round';
     for(let i=0; i<db.length; i++){
         let line = db[i];
         for(let j=0; j<line.length; j++){
