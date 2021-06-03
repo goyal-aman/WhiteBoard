@@ -42,6 +42,7 @@
     /* background: green; */
 }
 .tool-options{
+    background: mediumvioletred;
     height: 100px;
     width: 100px;
     border: 1px solid lightgray;
@@ -62,7 +63,7 @@
 .pencil-colors{
     display: flex;
     justify-content: space-between;
-    /* padding: 5px; */
+    padding: 5px;
 }
 .pencil-colors div{
     height: 15px;
