@@ -84,3 +84,13 @@
 .yellow{
     background: yellow;
 }
+.hide{
+    display: none;
+}
+
+.eraser-size{
+    text-align: center;
+}
+.eraser-size input{
+    width: 90%;
+}
