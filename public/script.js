@@ -20,6 +20,8 @@ let line=[];
 
 let isMouseDown = false;
 canvas.addEventListener('mousedown', function (e) {
+    if(redodb.length>0) redodb=[]
+    
     isMouseDown = true;
     let x = e.clientX;
     let y = e.clientY - canvasTop;
