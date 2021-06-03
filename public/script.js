@@ -11,6 +11,7 @@ window.addEventListener("resize", function () {
 })
 
 let ctx = canvas.getContext("2d");
+ctx.lineCap ='round';
 let isMouseDown = false;
 
 canvas.addEventListener('mousedown', function (e) {
