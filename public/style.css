@@ -20,9 +20,11 @@
     justify-content: space-evenly;
     border-radius: 10px;
     border: 1px solid gray;
+    background: aliceblue
 }
 
 .tool {
+    position: relative;
 }
 
 .tool img {
@@ -38,4 +40,47 @@
 
 #canvas {
     /* background: green; */
+}
+.tool-options{
+    height: 100px;
+    width: 100px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    left : -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.pencil-size{
+    text-align: center;
+}
+.pencil-size input{
+    width: 90%;
+}
+.pencil-colors{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5px; */
+}
+.pencil-colors div{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.red{
+    background: red;
+}
+.blue{
+    background: blue;
+}
+.green{
+    background: green;
+}
+.black{
+    background: black; 
+}
+.yellow{
+    background: yellow;
 }
