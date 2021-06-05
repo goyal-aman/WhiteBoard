@@ -41,7 +41,8 @@
 #canvas {
     /* background: green; */
 }
-.tool-options{
+
+.tool-options {
     background: mediumvioletred;
     height: 100px;
     width: 100px;
@@ -54,44 +55,100 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
-.pencil-size{
+
+.pencil-size {
     text-align: center;
 }
-.pencil-size input{
+
+.pencil-size input {
     width: 90%;
 }
-.pencil-colors{
+
+.pencil-colors {
     display: flex;
     justify-content: space-between;
     padding: 5px;
 }
-.pencil-colors div{
+
+.pencil-colors div {
     height: 15px;
     width: 15px;
     border-radius: 50%;
 }
-.red{
+
+.red {
     background: red;
 }
-.blue{
+
+.blue {
     background: blue;
 }
-.green{
+
+.green {
     background: green;
 }
-.black{
-    background: black; 
+
+.black {
+    background: black;
 }
-.yellow{
+
+.yellow {
     background: yellow;
 }
-.hide{
+
+.hide {
     display: none;
 }
 
-.eraser-size{
+.eraser-size {
     text-align: center;
 }
-.eraser-size input{
+
+.eraser-size input {
     width: 90%;
+}
+
+.sticky {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 250px;
+    width: 200px;
+    /* border: 1px solid darkblue; */
+}
+
+.sticky-header {
+    height: 15%;
+    background: blueviolet ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sticky-header div {
+    height: 70%;
+    width: 10%;
+    border-radius: 50%;
+    ; }
+
+.minimize {
+    background: black;
+}
+
+.close {
+    background: red;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sticky-content {
+    height: 85%;
+}
+
+textarea {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    /* border: none; */
+    padding: 3px;
 }
